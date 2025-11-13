@@ -56,7 +56,7 @@ export const authStore = create((set, get) => ({
 
   connectSocket: () => {
     const { loggedUser } = get();
-    const socket = io("http://localhost:5000", {
+    const socket = io("https://chatapp-2syn.onrender.com", {
       query: { userId: loggedUser._id },
     });
     socket.connect();

@@ -12,7 +12,7 @@ app.use(cookieParser());
 app.use(
   cors({
     // origin: "http://localhost:5173",
-    origin: "https://chatapp-2syn.onrender.com",
+    origin: "https://chatapp-1-llqx.onrender.com",
     credentials: true,
   })
 );
